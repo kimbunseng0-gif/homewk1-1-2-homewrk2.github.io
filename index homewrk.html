@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h3{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 35px;
+    }
+    button{
+        padding: 15px 40px;
+        border: none;
+        margin-left: 15px;
+    }
+    .btn1{
+    background-color:white;
+    color: rgb(63, 123, 245);
+    border: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline: 1px solid rgb(63, 123, 245);
+   }
+   .btn1:hover{
+    background-color: rgb(63, 123, 245);
+    transform: scale(0.9);
+    color: white;
+   }
+   .btn2{
+    background-color:white;
+    color: rgb(112, 110, 110);
+    border: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline: 1px solid rgb(112, 110, 110);
+   }
+   .btn2:hover{
+    background-color:rgb(112, 110, 110);
+    transform: scale(0.9);
+    color: white;
+   }
+   .btn3{
+    background-color: white;
+    color: rgb(5, 175, 5);
+    border: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline: 1px solid rgb(5, 175, 5);
+   }
+   .btn3:hover{
+    background-color: rgb(5, 175, 5);
+    transform: scale(0.9);
+    color: white;
+   }
+   .btn4{
+    background-color:white;
+    color: rgb(205, 18, 18);
+    border: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline: 1px solid ;
+   }
+   .btn4:hover{
+    background-color:rgb(205, 18, 18);
+    transform: scale(0.9);
+    color: white;
+   }
+   .btn5{
+    background-color:white;
+    color:rgb(248, 201, 15);
+    border: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline:1px solid rgb(248, 201, 15);
+   }
+   .btn5:hover{
+    background-color: rgb(248, 201, 15);
+    color: black;
+    transform: scale(0.9);
+   }
+   .btn6{
+    background-color: white;
+    color: rgb(41, 176, 248);
+    border: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline:1px solid rgb(41, 176, 248);
+   }
+   .btn6:hover{
+    background-color: rgb(41, 176, 248);
+     color: white;
+    transform: scale(0.9);
+    
+   }
+   .btn7{
+    background-color: rgb(250, 250, 250);
+    color: rgb(74, 73, 73);
+    border: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline:1px solid rgb(247, 245, 245);
+   }
+   .btn7:hover{
+    background-color:rgb(250, 250, 250);
+    color: rgb(74, 73, 73);
+    transform: scale(0.9);
+   }
+   .btn8{
+    background-color: white;
+    color: rgb(74, 73, 73);
+    border: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline: 1px solid black;
+   }
+   .btn8:hover{
+    background-color: black;
+    color: white;
+    transform: scale(0.9);
+   }
+    .btn9{
+    outline: 1px solid rgb(63, 123, 245);
+    border-radius: 50px;
+    background-color: rgb(63, 123, 245);
+    color:white;
+    cursor: pointer;
+   }
+   .btn9:hover{
+    border: none;
+    background-color: rgb(18, 87, 227);
+    color: white;
+   }
+    .btn10{
+    outline: 1px solid rgb(143, 143, 144);
+    border-radius: 50px;
+    background-color: rgb(143, 143, 144);
+    color:white;
+    cursor: pointer;
+   }
+   .btn10:hover{
+    border: none;
+    background-color: rgb(98, 98, 98);
+    color: white;
+   }
+    .btn11{
+    outline: 1px solid rgb(5, 175, 5);
+    border-radius: 50px;
+    background-color: rgb(5, 175, 5);
+    color:white;
+    cursor: pointer;
+   }
+   .btn11:hover{
+    border: none;
+    background-color:rgb(3, 115, 3);
+    color: white;
+   }
+    .btn12{
+    outline: 1px solid rgb(205, 18, 18);
+    border-radius: 50px;
+    background-color: rgb(205, 18, 18);
+    color:white;
+    cursor: pointer;
+   }
+   .btn12:hover{
+    border: none;
+    background-color:rgb(149, 8, 8);
+    color: white;
+   }
+    .btn13{
+    outline: 1px solid rgb(239, 197, 9);
+    border-radius: 50px;
+    background-color: rgb(239, 197, 9);
+    color:black;
+    cursor: pointer;
+   }
+   .btn13:hover{
+    border: none;
+    background-color:rgb(206, 169, 6);
+    color: black;
+   }
+    .btn14{
+    outline: 1px solid rgb(65, 190, 244);
+    border-radius: 50px;
+    background-color: rgb(65, 190, 244);
+    color:black;
+    cursor: pointer;
+   }
+   .btn14:hover{
+    border: none;
+    background-color:rgb(25, 175, 239);
+    color: black;
+   }
+    .btn15{
+    outline: 1px solid rgb(253, 249, 249);
+    border-radius: 50px;
+    background-color: rgb(253, 249, 249);
+    color:black;
+    cursor: pointer;
+   }
+   .btn15:hover{
+    border: none;
+    background-color:rgb(246, 244, 244);
+    color: black;
+   }
+    .btn16{
+    outline: 1px solid rgb(51, 50, 50);
+    border-radius: 50px;
+    background-color: rgb(51, 50, 50);
+    color:white;
+    cursor: pointer;
+   }
+   .btn16:hover{
+    border: none;
+    background-color:black;
+    color: white;
+   }
+   
+   
+</style>
+<body>
+    <div>
+        <h3><u>homewrk1</u></h3>
+        <button class="btn1">Primary</button>
+        <button class="btn2">Secondary</button>
+        <button class="btn3">Success</button>
+        <button class="btn4">Danger</button>
+        <button class="btn5">Warning</button>
+        <button class="btn6">Info</button>
+        <button class="btn7">Light</button>
+        <button class="btn8">Dark</button>
+    </div>
+    <div>
+        <h3><u>homewrk2</u></h3>
+        <button class="btn9">Primary</button>
+        <button class="btn10">Secondary</button>
+        <button class="btn11">Success</button>
+        <button class="btn12">Danger</button>
+        <button class="btn13">Warning</button>
+        <button class="btn14">Info</button>
+        <button class="btn15">Light</button>
+        <button class="btn16">Dark</button>
+        
+    </div>
+</body>
+</html>
